@@ -1,13 +1,13 @@
 " Vim color scheme
 "
 " Name:        railscast.vim
-" Maintainer:  Josh O'Rourke <jorourke23@gmail.com>
+" Maintainer:  Josh O'Rourke <jorourke23@gmail.com> 
 " License:     public domain
 "
 " A GUI Only port of the RailsCasts TextMate theme [1] to Vim.
 " Some parts of this theme were borrowed from the well-documented Lucius theme [2].
-"
-" [1] http://railscasts.com/about
+" 
+" [1] http://railscasts.com/about 
 " [2] http://www.vim.org/scripts/script.php?script_id=2536
 
 set background=dark
@@ -122,24 +122,3 @@ hi link htmlEndTag           xmlEndTag
 hi xmlTag                    guifg=#E8BF6A
 hi xmlTagName                guifg=#E8BF6A
 hi xmlEndTag                 guifg=#E8BF6A
-highlight rubyClass                 guifg=#FFFFFF ctermfg=15
-highlight rubyConstant              guifg=#DA4939 ctermfg=167
-highlight rubyInstanceVariable      guifg=#D0D0FF ctermfg=189
-highlight rubyInterpolation         guifg=#519F50 ctermfg=107
-highlight rubyLocalVariableOrMethod guifg=#D0D0FF ctermfg=189
-highlight rubyPredefinedConstant    guifg=#DA4939 ctermfg=167
-highlight rubyPseudoVariable        guifg=#FFC66D ctermfg=221
-highlight rubyStringDelimiter       guifg=#A5C261 ctermfg=143
-
-highlight xmlTag                    guifg=#E8BF6A ctermfg=179
-highlight xmlTagName                guifg=#E8BF6A ctermfg=179
-highlight xmlEndTag                 guifg=#E8BF6A ctermfg=179
-
-highlight mailSubject               guifg=#A5C261 ctermfg=107
-highlight mailHeaderKey             guifg=#FFC66D ctermfg=221
-highlight mailEmail                 guifg=#A5C261 ctermfg=107 gui=italic cterm=underline
-
-highlight SpellBad                  guifg=#D70000 ctermfg=160 ctermbg=NONE cterm=underline
-highlight SpellRare                 guifg=#D75F87 ctermfg=168 guibg=NONE ctermbg=NONE gui=underline cterm=underline
-highlight SpellCap                  guifg=#D0D0FF ctermfg=189 guibg=NONE ctermbg=NONE gui=underline cterm=underline
-highlight MatchParen                guifg=#FFFFFF ctermfg=15 guibg=#005f5f ctermbg=23
