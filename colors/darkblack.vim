@@ -20,8 +20,8 @@ hi PMenuSel guibg=DeepSkyBlue2 guifg=black
 hi Visual               guifg=white guibg=DarkSlateGray
 hi VisualNOS	guifg=lightblue guibg=fg	gui=reverse,underline	ctermfg=lightblue ctermbg=fg cterm=reverse,underline
 hi Todo		guifg=red guibg=black	ctermfg=red	ctermbg=black
-hi Search	gui=bold guifg=black guibg=lightred	ctermfg=white ctermbg=black cterm=underline term=underline
-hi IncSearch	guifg=lightred guibg=black	ctermfg=black ctermbg=gray
+hi Search	gui=bold guifg=black guibg=lightred	ctermfg=black ctermbg=lightyellow term=underline
+hi IncSearch	guifg=lightred guibg=black	ctermfg=black ctermbg=lightyellow cterm=bold
 
 hi SpecialKey	guifg=cyan	ctermfg=darkcyan
 hi Directory	guifg=cyan	ctermfg=cyan
@@ -47,7 +47,7 @@ hi DiffDelete	ctermfg=lightblue ctermbg=cyan gui=bold guifg=Blue guibg=DarkCyan
 hi DiffText	cterm=bold ctermbg=red gui=bold guibg=Red
 
 hi Cursor	guifg=black guibg=Cyan ctermfg=bg ctermbg=lightgrey
-hi CursorLine	guibg=grey20 ctermfg=bg ctermbg=lightgrey
+hi CursorLine	guibg=grey20 ctermbg=234 cterm=none
 hi lCursor	guifg=Black guibg=darkgreen ctermfg=bg ctermbg=darkgreen
 
 
