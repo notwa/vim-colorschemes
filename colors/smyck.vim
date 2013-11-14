@@ -9,7 +9,6 @@ let g:colors_name = "smyck"
 
 highlight clear Normal
 set background=dark
-set linespace=2
 
 " Syntaxeinstellungen zuruecksetzen, wenn Syntax Highlighting aktiviert ist
 if exists("syntax_on")
