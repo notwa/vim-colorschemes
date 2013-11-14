@@ -63,27 +63,3 @@ let g:colors_name="darkroom"
 
         hi cursorline   ctermbg=darkgreen ctermfg=black
         hi cursorline   guibg=darkgreen guifg=black
-
-let s:currentfile=bufname(0)
-only
-set wiw=90
-e --
-setlocal buftype=nofile
-setlocal bufhidden=hide
-setlocal noswapfile
-setlocal nobuflisted
-vsplit
-vsplit
-execute "normal \<c-w>l"
-execute "normal \<c-w>="
-if strlen(s:currentfile)
-e #
-else
-e scratch
-  setlocal buftype=nofile
-  setlocal bufhidden=hide
-  setlocal noswapfile
-endif
-execute "normal G"
-"startinsert!
-unlet s:currentfile
