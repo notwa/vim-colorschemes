@@ -27,7 +27,7 @@ hi VisualNOS	ctermfg=244		ctermbg=237		cterm=none		guifg=#c3c6ca	guibg=#303030	g
 hi Search		ctermfg=177		ctermbg=241		cterm=none		guifg=#d787ff	guibg=#636066	gui=none
 hi Folded		ctermfg=103		ctermbg=237		cterm=none		guifg=#a0a8b0	guibg=#3a4046	gui=none
 hi Title		ctermfg=230						cterm=bold		guifg=#ffffd7					gui=bold
-hi StatusLine	ctermfg=232		ctermbg=244		cterm=none		guifg=#ffffd7	guibg=#444444	gui=bold
+hi StatusLine	ctermfg=232		ctermbg=246		cterm=none		guifg=#ffffd7	guibg=#444444	gui=bold
 hi VertSplit	ctermfg=238		ctermbg=238		cterm=none		guifg=#444444	guibg=#444444	gui=none
 hi StatusLineNC	ctermfg=235		ctermbg=244		cterm=none		guifg=#857b6f	guibg=#444444	gui=none
 hi LineNr		ctermfg=240		ctermbg=234		cterm=none		guifg=#857b6f	guibg=#080808	gui=none
