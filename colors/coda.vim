@@ -244,32 +244,33 @@ if has("gui_running") || &t_Co == 88 || &t_Co == 256
     " Interface Elements
     call <SID>X("StatusLine", "ffffff", "43c464", "bold")
     call <SID>X("StatusLineNC", "9bd4a9", "51b069", "")
-    call <SID>X("VertSplit", "3687a2", "3687a2", "")
+    " call <SID>X("VertSplit", "9b9b9b", "9b9b9b", "")
     call <SID>X("Folded", "3c78a2", "c3daea", "")
     call <SID>X("IncSearch", "708090", "f0e68c", "")
     call <SID>X("Pmenu", "ffffff", "cb2f27", "")
     call <SID>X("SignColumn", "", "", "")
-    call <SID>X("CursorLine", "", "EEF1F5", "")
-    call <SID>X("LineNr", "eeeeee", "438ec3", "bold")
+    call <SID>X("CursorLine", "", "c0d9eb", "")
+    call <SID>X("LineNr", "e1d5c0", "ffffff", "")
     call <SID>X("MatchParen", "", "", "")
 
     " Specials
     call <SID>X("Todo", "e50808", "dbf3cd", "bold")
     call <SID>X("Title", "000000", "", "")
-    call <SID>X("Special", "996633", "", "") "==
+    call <SID>X("Special", "996633", "", "") 
 
     " Syntax Elements
-    call <SID>X("String", "ff6600", "", "") "==
+    call <SID>X("String", "ff6600", "", "") 
     call <SID>X("Constant", "0086d2", "", "")
-    call <SID>X("Number", "0000ff", "", "") "==
-    call <SID>X("Statement", "996633", "", "") "==
-    call <SID>X("Function", "9520af", "", "") "==
-    call <SID>X("PreProc", "b52264", "", "") "==
-    call <SID>X("Comment", "3c802c", "", "") "==
-    call <SID>X("Type", "70796b", "", "")
+    call <SID>X("Number", "0000ff", "", "")
+    call <SID>X("Statement", "996633", "", "")
+    call <SID>X("Function", "9520af", "", "")
+    call <SID>X("PreProc", "b52264", "", "")
+    call <SID>X("Comment", "3c802c", "", "")
+    call <SID>X("Type", "b52264", "", "")
     call <SID>X("Error", "ffffff", "d40000", "")
-    call <SID>X("Identifier", "996633", "", "") "==
+    call <SID>X("Identifier", "996633", "", "")
     call <SID>X("Label", "ff0086", "", "")
+    " call <SID>X("Operator", "ff0000", "", "")
 
     " Python Highlighting
     call <SID>X("pythonCoding", "ff0086", "", "")
