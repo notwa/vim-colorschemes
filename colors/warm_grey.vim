@@ -33,6 +33,7 @@ hi Underlined  guifg=#202020 gui=underline
 hi Cursor    guifg=black   guibg=#b8b4b0
 hi lCursor   guifg=black   guibg=white
 hi LineNr    guifg=#646260 guibg=#d8d4d0 gui=italic
+hi SignColumn    guifg=#646260 guibg=#d8d4d0 gui=italic
 
 hi Normal    guifg=#444240   guibg=#f0f0f0
 

@@ -20,6 +20,7 @@ hi Normal        guifg=#1a1a1a  guibg=white
 hi Title         guifg=black    guibg=white
 hi Cursor        guibg=#111111
 hi LineNr        guifg=#aaaaaa  guibg=#f8f8f8
+hi SignColumn    guifg=#aaaaaa  guibg=#f8f8f8
 hi Visual        guibg=#bbddff
 hi NonText       guifg=#cccccc  guibg=#fafafa
 hi StatusLine    guifg=#222222  guibg=#eeeeee  gui=none
