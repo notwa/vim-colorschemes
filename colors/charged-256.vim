@@ -1,3 +1,8 @@
+set background=dark
+hi clear
+
+let g:colors_name="charged-256"
+
 hi Normal       ctermfg=247 ctermbg=16
 hi NonText      ctermfg=247 ctermbg=232
 

@@ -10,9 +10,12 @@ if version >= 500
 "  source $VIM/vim61/syntax/syntax.vim
 "  source $VIM/vim-5.0/syntax/syntax.vim
 
+  set background=light
   hi clear
   " Switch on search pattern highlighting.
   set hlsearch
+
+  let g:colors_name="custom"
 
   " highlight Comment gui=italic
 

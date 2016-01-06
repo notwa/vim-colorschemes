@@ -17,6 +17,8 @@
 
 hi clear
 
+let g:colors_name="c"
+
 " Eterm users, uncomment the line below
 " hi Normal ctermfg=grey
 

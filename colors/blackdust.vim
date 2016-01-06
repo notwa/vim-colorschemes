@@ -1,6 +1,8 @@
 set background=dark
 hi clear          
 
+let g:colors_name="blackdust"
+
 hi Boolean         guifg=#dca3a3 gui=bold
 hi Character       guifg=#dca3a3 gui=bold
 hi Comment         guifg=#7f7f7f

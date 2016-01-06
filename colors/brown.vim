@@ -1,3 +1,8 @@
+set background=light
+hi clear
+
+let g:colors_name="brown"
+
 hi comment      guifg=#fef8ff ctermfg=red
 hi constant     guifg=#aa712f ctermfg=white
 hi cursor       guibg=#5e3807 guifg=#deb887
