@@ -6,7 +6,7 @@ hi clear
 if exists("syntax_on")
     syntax reset
 endif
-let g:colors_name="clarity"
+let g:colors_name="nightVision"
 
 highlight Normal         gui=NONE guifg=#A6BFBB      guibg=#1D1F42
 highlight Comment        gui=NONE guifg=SteelBlue    guibg=bg 

@@ -9,7 +9,7 @@ hi clear
 if exists("syntax_on")
     syntax reset
 endif
-let g:colors_name="borland"
+let g:colors_name="mcedit"
 
 hi Normal       term=NONE cterm=NONE ctermfg=Gray ctermbg=DarkBlue
 hi Normal       gui=NONE guifg=Gray guibg=#0000cd

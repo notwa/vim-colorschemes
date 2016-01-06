@@ -19,7 +19,7 @@ if version > 580
         syntax reset
     endif
 endif
-let g:colors_name="molokai"
+let g:colors_name="molokai_dark"
 
 hi Boolean         guifg=#CC0000               gui=bold
 hi Character       guifg=#E6DB74

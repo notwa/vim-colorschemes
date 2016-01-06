@@ -13,7 +13,7 @@ hi clear
 if exists("syntax_on")
   syntax reset
 endif
-let g:colors_name = "ColorSchemeCreator"  
+let g:colors_name = "vexorian"  
 hi Normal		guifg=#000000 guibg=#FFFFFF  
 hi comment		guifg=#008800
 hi constant		guifg=#0000AA

@@ -14,7 +14,7 @@ hi clear
 if exists("syntax_on")
     syntax reset
 endif
-let g:colors_name="mycolorscheme"
+let g:colors_name="colorscheme_template"
 
 "hi Normal
 

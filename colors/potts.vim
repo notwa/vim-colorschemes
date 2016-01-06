@@ -9,7 +9,7 @@ highlight clear
 if exists("syntax_on")
   syntax reset
 endif
-let g:colors_name="potts2"
+let g:colors_name="potts"
 
 highlight SpecialKey term=bold ctermfg=9 guifg=Cyan
 highlight NonText term=bold ctermfg=9 gui=bold guifg=green

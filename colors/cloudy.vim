@@ -9,7 +9,7 @@ hi clear
 if exists("syntax_on")
 	syntax reset
 endif
-let g:colors_name="peppers"
+let g:colors_name="cloudy"
 
 hi Normal   guifg=#ffffcc	 guibg=#003366 
 hi LineNr   guifg=white guibg=#003366 

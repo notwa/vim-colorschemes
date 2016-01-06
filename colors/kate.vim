@@ -10,7 +10,7 @@ hi clear
 if exists("syntax_on")
     syntax reset
 endif
-let g:colors_name="DevC++"
+let g:colors_name="kate"
 
 hi Comment      gui=italic      guifg=#808080		guibg=NONE
 hi Identifier   gui=NONE		guifg=Black			guibg=NONE

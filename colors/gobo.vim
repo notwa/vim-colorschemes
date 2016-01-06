@@ -14,7 +14,7 @@ hi clear
 if exists("syntax_on")
   syntax reset
 endif
-let g:colors_name = "ColorSchemeCreator"  
+let g:colors_name = "gobo"  
 hi Normal		guifg=#111111 guibg=#FFFFFF  
 hi comment		guifg=#33CC99 gui=italic  
 hi constant		guifg=#CC0099 gui=bold  
