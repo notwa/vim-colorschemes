@@ -80,8 +80,6 @@ if !has("gui_running")
 	end
 endif
 
-let g:colors_name = "leo256"
-
 set background=dark
 if v:version > 580
 	highlight clear
@@ -89,6 +87,8 @@ if v:version > 580
 		syntax reset
 	endif
 endif
+
+let g:colors_name = "leo256"
 
 " ### Normal should come first
 

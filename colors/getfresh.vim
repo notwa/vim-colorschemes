@@ -78,7 +78,7 @@ exe 'hi Pmenu                     guifg='.NormalFG.'      guibg='.LightGray
 exe 'hi PmenuSel                  guifg='.DarkGray.'      guibg='.LightGreen
 exe 'hi PMenuSbar                                         guibg='.DarkCyan
 exe 'hi PMenuThumb                                        guibg='.DarkGreen
-exe 'hi Comment                   guifg='.LightGray.'                                       font='.OtherFont
+exe 'hi Comment                   guifg='.LightGray
 exe 'hi Todo                      guifg='.LightGray.'     guibg=NONE'
 exe 'hi NonText                   guifg='.DarkCyan
 exe 'hi SpecialKey                guifg='.DarkCyan

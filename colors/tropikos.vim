@@ -9,7 +9,7 @@ let g:colors_name = "tropikos"
 
 highlight clear Normal
 set background=dark
-set linespace=2
+"set linespace=2
 
 if exists("syntax_on")
   syntax reset

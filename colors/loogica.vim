@@ -1,10 +1,11 @@
-let colors_name = "loogica"
 set background=light
 
 hi clear
 if exists("syntax_on")
   syntax reset
 endif
+
+let colors_name = "loogica"
 
 hi Normal guifg=#222222 guibg=#E6E6E1
 hi ErrorMsg guibg=Red guifg=White
