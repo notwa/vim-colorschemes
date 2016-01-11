@@ -1,5 +1,5 @@
-" Base16 Atelier Cave (https://github.com/chriskempson/base16)
-" Scheme: Bram de Haan (http://atelierbram.github.io/syntax-highlighting/atelier-schemes/cave)
+" Base16 Pop (https://github.com/chriskempson/base16)
+" Scheme: Chris Kempson (http://chriskempson.com)
 
 " This enables the coresponding base16-shell script to run so that
 " :colorscheme works in terminals supported by base16-shell scripts
@@ -7,27 +7,27 @@
 "   let g:base16_shell_path=base16-builder/output/shell/
 if !has('gui_running')
   if exists("g:base16_shell_path")
-    execute "silent !/bin/sh ".g:base16_shell_path."/base16-ateliercave.".&background.".sh"
+    execute "silent !/bin/sh ".g:base16_shell_path."/base16-pop.".&background.".sh"
   endif
 endif
 
 " GUI color definitions
-let s:gui00 = "19171c"
-let s:gui01 = "26232a"
-let s:gui02 = "585260"
-let s:gui03 = "655f6d"
-let s:gui04 = "7e7887"
-let s:gui05 = "8b8792"
-let s:gui06 = "e2dfe7"
-let s:gui07 = "efecf4"
-let s:gui08 = "be4678"
-let s:gui09 = "aa573c"
-let s:gui0A = "a06e3b"
-let s:gui0B = "2a9292"
-let s:gui0C = "398bc6"
-let s:gui0D = "576ddb"
-let s:gui0E = "955ae7"
-let s:gui0F = "bf40bf"
+let s:gui00 = "000000"
+let s:gui01 = "202020"
+let s:gui02 = "303030"
+let s:gui03 = "505050"
+let s:gui04 = "b0b0b0"
+let s:gui05 = "d0d0d0"
+let s:gui06 = "e0e0e0"
+let s:gui07 = "ffffff"
+let s:gui08 = "eb008a"
+let s:gui09 = "f29333"
+let s:gui0A = "f8ca12"
+let s:gui0B = "37b349"
+let s:gui0C = "00aabb"
+let s:gui0D = "0e5a94"
+let s:gui0E = "b31e8d"
+let s:gui0F = "7a2d00"
 
 " Terminal color definitions
 let s:cterm00 = "00"
@@ -59,7 +59,7 @@ endif
 " Theme setup
 hi clear
 syntax reset
-let g:colors_name = "base16-ateliercave"
+let g:colors_name = "base16-pop"
 
 " Highlighting function
 fun <sid>hi(group, guifg, guibg, ctermfg, ctermbg, attr, guisp)
